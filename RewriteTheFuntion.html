@@ -1,0 +1,22 @@
+//?'나 '||'를 사용하여 함수 다시 작성하기
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         //?연산자 사용
+        function checkAge(age){
+            return (age > 18) ? true : confirm('보호자의 동의를 받으셨나요?');
+        }
+        //OR 연산자 사용
+        function checkAge(age){
+            return (age > 18) || confirm('보호자의 동의를 받으셨나요?');
+        }
+    </script>
+</body>
+</html>
